@@ -1,0 +1,15 @@
+from array import*
+a=array('i',[101,102,103,104,105])
+n=len(a)
+i=0
+while i<n:
+    print(a[1])
+    i=i+1
+print("Array after pop(n)")
+m=a.pop(1)
+n=len(a)
+i=0
+while(i<n):
+    print(a[i])
+    i=i+1
+print("removed element",m)
